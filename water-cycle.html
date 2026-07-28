@@ -194,6 +194,38 @@ body{
   .num-lg{font-size:3rem!important}
   .nav-bar{bottom:.6rem}
 }
+
+/* Slide 7 specific responsive fixes */
+@media(max-width:1200px){
+  .slide-7 .text-card.bl{
+    left:40px!important;
+    bottom:80px!important;
+    max-width:340px!important;
+  }
+}
+@media(max-width:992px){
+  .slide-7 .text-card.bl{
+    left:30px!important;
+    bottom:70px!important;
+    max-width:300px!important;
+  }
+}
+@media(max-width:768px){
+  .slide-7 .text-card.bl{
+    left:20px!important;
+    right:20px!important;
+    bottom:100px!important;
+    max-width:none!important;
+  }
+}
+
+/* Slide 7 cards responsive adjustments */
+@media(max-width:1200px){
+  .slide-7 svg rect[x="89"][y="280"]{transform:scale(0.95);transform-origin:89px 280px}
+}
+@media(max-width:992px){
+  .slide-7 g[class^="s7c"]{opacity:0.9}
+}
 </style>
 </head>
 <body>
@@ -1403,9 +1435,9 @@ body{
 
     <!-- Card 1: EVAPORATION -->
     <g class="s7c1">
-      <rect x="89" y="280" width="276" height="220" rx="16" fill="#D98A1A" opacity=".06"/>
-      <rect x="89" y="280" width="276" height="220" rx="16" stroke="#D98A1A" stroke-width="1.5" fill="none" opacity=".2"/>
-      <rect x="89" y="280" width="276" height="4" fill="#D98A1A" opacity=".7"/>
+      <rect x="89" y="280" width="276" height="220" rx="12" fill="#D98A1A" opacity=".06"/>
+      <rect x="89" y="280" width="276" height="220" rx="12" stroke="#D98A1A" stroke-width="1.5" fill="none" opacity=".2"/>
+      <rect x="89" y="280" width="276" height="3" fill="#D98A1A" opacity=".7" rx="1.5"/>
       <circle cx="136" cy="296" r="14" fill="white" stroke="#D98A1A" stroke-width="1.5"/>
       <text x="136" y="301" text-anchor="middle" fill="#D98A1A" font-size="12" font-weight="700" font-family="Inter,system-ui,sans-serif">01</text>
       <circle cx="227" cy="342" r="24" fill="#D98A1A"/>
@@ -1426,9 +1458,9 @@ body{
 
     <!-- Card 2: CONDENSATION -->
     <g class="s7c2">
-      <rect x="393" y="280" width="276" height="220" rx="16" fill="#2C6BA6" opacity=".06"/>
-      <rect x="393" y="280" width="276" height="220" rx="16" stroke="#2C6BA6" stroke-width="1.5" fill="none" opacity=".2"/>
-      <rect x="393" y="280" width="276" height="4" fill="#2C6BA6" opacity=".7"/>
+      <rect x="393" y="280" width="276" height="220" rx="12" fill="#2C6BA6" opacity=".06"/>
+      <rect x="393" y="280" width="276" height="220" rx="12" stroke="#2C6BA6" stroke-width="1.5" fill="none" opacity=".2"/>
+      <rect x="393" y="280" width="276" height="3" fill="#2C6BA6" opacity=".7" rx="1.5"/>
       <circle cx="440" cy="296" r="14" fill="white" stroke="#2C6BA6" stroke-width="1.5"/>
       <text x="440" y="301" text-anchor="middle" fill="#2C6BA6" font-size="12" font-weight="700" font-family="Inter,system-ui,sans-serif">02</text>
       <circle cx="531" cy="330" r="20" fill="white" opacity=".9"/>
@@ -1447,9 +1479,9 @@ body{
 
     <!-- Card 3: PRECIPITATION -->
     <g class="s7c3">
-      <rect x="697" y="280" width="276" height="220" rx="16" fill="#5BABD6" opacity=".06"/>
-      <rect x="697" y="280" width="276" height="220" rx="16" stroke="#5BABD6" stroke-width="1.5" fill="none" opacity=".2"/>
-      <rect x="697" y="280" width="276" height="4" fill="#5BABD6" opacity=".7"/>
+      <rect x="697" y="280" width="276" height="220" rx="12" fill="#5BABD6" opacity=".06"/>
+      <rect x="697" y="280" width="276" height="220" rx="12" stroke="#5BABD6" stroke-width="1.5" fill="none" opacity=".2"/>
+      <rect x="697" y="280" width="276" height="3" fill="#5BABD6" opacity=".7" rx="1.5"/>
       <circle cx="744" cy="296" r="14" fill="white" stroke="#5BABD6" stroke-width="1.5"/>
       <text x="744" y="301" text-anchor="middle" fill="#5BABD6" font-size="12" font-weight="700" font-family="Inter,system-ui,sans-serif">03</text>
       <circle cx="835" cy="328" r="20" fill="white" opacity=".9"/>
@@ -1470,9 +1502,9 @@ body{
 
     <!-- Card 4: COLLECTION -->
     <g class="s7c4">
-      <rect x="1001" y="280" width="276" height="220" rx="16" fill="#6DBF8A" opacity=".06"/>
-      <rect x="1001" y="280" width="276" height="220" rx="16" stroke="#6DBF8A" stroke-width="1.5" fill="none" opacity=".2"/>
-      <rect x="1001" y="280" width="276" height="4" fill="#6DBF8A" opacity=".7"/>
+      <rect x="1001" y="280" width="276" height="220" rx="12" fill="#6DBF8A" opacity=".06"/>
+      <rect x="1001" y="280" width="276" height="220" rx="12" stroke="#6DBF8A" stroke-width="1.5" fill="none" opacity=".2"/>
+      <rect x="1001" y="280" width="276" height="3" fill="#6DBF8A" opacity=".7" rx="1.5"/>
       <circle cx="1048" cy="296" r="14" fill="white" stroke="#6DBF8A" stroke-width="1.5"/>
       <text x="1048" y="301" text-anchor="middle" fill="#6DBF8A" font-size="12" font-weight="700" font-family="Inter,system-ui,sans-serif">04</text>
       <path d="M1107 330 Q1119 322 1131 330 Q1143 322 1155 330 Q1167 322 1179 330" stroke="#6DBF8A" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
